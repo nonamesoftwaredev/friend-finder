@@ -1,4 +1,4 @@
-script: rvm get head
+before_script: rvm get head
 language: objective-c                   #Used for Swift or Objective-c
 osx_image: xcode7.3
 xcode_project: Friend Finder/Friend-Finder.xcodeproj
