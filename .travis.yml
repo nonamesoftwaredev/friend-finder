@@ -3,4 +3,4 @@ language: objective-c                   #Used for Swift or Objective-c
 osx_image: xcode8
 xcode_project: Friend Finder/Friend-Finder.xcodeproj
 xcode_scheme: Friend-Finder
-xcode_sdk: iphonesimulator9.3
+xcode_sdk: iphonesimulator10.0
