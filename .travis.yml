@@ -1,6 +1,4 @@
 before_script: rvm get head
 language: objective-c                   #Used for Swift or Objective-c
-osx_image: xcode7.3
-xcode_project: Friend Finder/Friend-Finder.xcodeproj
-xcode_scheme: Friend-Finder
-xcode_sdk: iphonesimulator9.3
+osx_image: xcode8
+script: xcodebuild -project Friend\ Finder/Friend-Finder.xcodeproj -scheme Friend-Finder -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.0' build test

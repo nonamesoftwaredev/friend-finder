@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40E4CB721D8FAB0F0006989C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4CB711D8FAB0F0006989C /* AppDelegate.swift */; };
-		40E4CB741D8FAB0F0006989C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4CB731D8FAB0F0006989C /* ViewController.swift */; };
+		40E4CB741D8FAB0F0006989C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4CB731D8FAB0F0006989C /* HomeViewController.swift */; };
 		40E4CB771D8FAB0F0006989C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E4CB751D8FAB0F0006989C /* Main.storyboard */; };
 		40E4CB791D8FAB0F0006989C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E4CB781D8FAB0F0006989C /* Assets.xcassets */; };
 		40E4CB7C1D8FAB0F0006989C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E4CB7A1D8FAB0F0006989C /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		40E4CB6E1D8FAB0F0006989C /* Friend-Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friend-Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E4CB711D8FAB0F0006989C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40E4CB731D8FAB0F0006989C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40E4CB731D8FAB0F0006989C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		40E4CB761D8FAB0F0006989C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40E4CB781D8FAB0F0006989C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40E4CB7B1D8FAB0F0006989C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				40E4CB711D8FAB0F0006989C /* AppDelegate.swift */,
-				40E4CB731D8FAB0F0006989C /* ViewController.swift */,
+				40E4CB731D8FAB0F0006989C /* HomeViewController.swift */,
 				40E4CB751D8FAB0F0006989C /* Main.storyboard */,
 				40E4CB781D8FAB0F0006989C /* Assets.xcassets */,
 				40E4CB7A1D8FAB0F0006989C /* LaunchScreen.storyboard */,
@@ -196,9 +196,11 @@
 				TargetAttributes = {
 					40E4CB6D1D8FAB0F0006989C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					40E4CB811D8FAB0F0006989C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 40E4CB6D1D8FAB0F0006989C;
 					};
 					40E4CB8C1D8FAB0F0006989C = {
@@ -259,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E4CB741D8FAB0F0006989C /* ViewController.swift in Sources */,
+				40E4CB741D8FAB0F0006989C /* HomeViewController.swift in Sources */,
 				40E4CB721D8FAB0F0006989C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +410,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nns.Friend-Finder";
 				PRODUCT_NAME = "Friend-Finder";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -419,6 +422,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nns.Friend-Finder";
 				PRODUCT_NAME = "Friend-Finder";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -430,6 +434,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nns.Friend-FinderTests";
 				PRODUCT_NAME = "Friend-Finder";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Friend-Finder.app/Friend-Finder";
 			};
 			name = Debug;
@@ -442,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nns.Friend-FinderTests";
 				PRODUCT_NAME = "Friend-Finder";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Friend-Finder.app/Friend-Finder";
 			};
 			name = Release;
