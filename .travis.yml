@@ -1,5 +1,6 @@
 before_script:
   - rvm get head
+  - pod repo update
   - ( cd Friend\ Finder && pod install )
   - gem install xcpretty
 language: objective-c                   #Used for Swift or Objective-c
