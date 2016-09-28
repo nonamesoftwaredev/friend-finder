@@ -12,3 +12,4 @@ App for Finding Friends through live location sharing
 * Install HomeBrew, See: [HomeBrew Website](http://brew.sh/index.html)
 * Install CocoaPods: `brew install cocoapods`
 * Run `pod install` in project's root directory
+* Open workspace file with Xcode to open project
