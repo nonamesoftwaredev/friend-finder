@@ -1,4 +1,7 @@
-before_script: rvm get head
+before_script:
+  - rvm get head
+  - pod install
+  - gem install xcpretty
 language: objective-c                   #Used for Swift or Objective-c
 osx_image: xcode8
-script: xcodebuild -project Friend\ Finder/Friend-Finder.xcodeproj -scheme Friend-Finder -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.0' build test
+script: xcodebuild -project Friend\ Finder/Friend-Finder.xcodeproj -scheme Friend-Finder -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.0' build test | xcpretty
